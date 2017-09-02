@@ -1,0 +1,23 @@
+{
+  "name": "travel-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decombs12/travel-site.git"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/decombs12/travel-site/issues"
+  },
+  "homepage": "https://github.com/decombs12/travel-site#readme",
+  "description": "",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize.css": "^7.0.0"
+  }
+}
