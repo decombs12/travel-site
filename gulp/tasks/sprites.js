@@ -33,7 +33,7 @@ gulp.task('copySpriteGraphic', ['createSprite'], function() {
 
 gulp.task('copySpriteCSS', ['createSprite'], function() {
 	return gulp.src('./app/temp/sprite/css/*.css')
-	.pipe(rename('_sprite.css'))
+		.pipe(rename('_sprite.css'))
 		.pipe(gulp.dest('./app/assets/styles/modules'));
 });
 
